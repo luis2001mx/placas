@@ -1,22 +1,33 @@
+body{
+  background-image: url("../img/fondo1.png");
+}
+
 header {
-    background-color: coral;
+    background-color: #EC7E55;
     height: 100px;
     color: azure;
     font-size: 120%;
     line-height: 85px;
+    text-align: center;
 }
 
 h2{
-    
+    text-align: center;
+    width: 50%;
+    border: 1px solid chocolate;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 5px 5px gray;
 }
 
 section article {
     margin: 50px 0px 20px 10%;
     width: 85%;
-    background-color: chocolate;
+    background-color: #E37045;
     border-radius: 30px;
     padding-top: 0;
-    
+
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -42,20 +53,19 @@ section {
 }
 
 footer {
-    
+
 }
 
 /* Esqeleto de responsive disign */
 @media screen and (min-width: 480px){
-    
+    header {
+        font-size: 150%;
+    }
 }
 
 @media screen and (min-width: 767px){
     section article {
         float: left;
-    }
-    
-    section article {
         width: 40%;
         margin: 50px 3% 20px 6%;
     }
